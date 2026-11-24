@@ -1,5 +1,7 @@
+// Usamos el tipo compartido para comprobar la estructura de los datos
 import type { Developer } from "../types/developers";
 
+// Lista local de perfiles: cada objeto debe cumplir la interfaz Developer
 export const developers: Developer[] = [
   {
     id: 1,

@@ -1,8 +1,10 @@
+// Contrato de los props: el titulo que es el texto y el totaldevs que es un numero
 interface HeaderProps {
   title: string;
   totalDevs: number;
 }
 
+// Recibimos las props mediante desestructuracion y construimos el header
 function Header({ title, totalDevs }: HeaderProps) {
   return (
     <header className="bg-slate-900 text-white py-6 px-4 shadow-md">
